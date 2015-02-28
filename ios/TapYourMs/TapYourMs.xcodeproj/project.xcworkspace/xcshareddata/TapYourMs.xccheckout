@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5748FA3B-D190-40D9-B0BA-5E700C251C29</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TapYourMs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF06A093772C58B882466B956FCFD1E2711672DD</key>
+		<string>github.com:East-Lab/Tap-Your-Ms.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/TapYourMs/TapYourMs.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF06A093772C58B882466B956FCFD1E2711672DD</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:East-Lab/Tap-Your-Ms.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF06A093772C58B882466B956FCFD1E2711672DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF06A093772C58B882466B956FCFD1E2711672DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TapYourMs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
