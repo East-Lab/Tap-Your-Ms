@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SceneKit/SceneKit.h>
+#import <SpriteKit/SpriteKit.h>
+#import "MainScene.h"
 
 @interface GameViewController : UIViewController
+
+@property (nonatomic) int score;
+@property (nonatomic,weak) SKView *skView;
 
 @end

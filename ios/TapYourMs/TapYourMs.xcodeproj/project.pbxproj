@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		42B0B2011AA19749002EC067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2001AA19749002EC067 /* main.m */; };
 		42B0B2041AA19749002EC067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2031AA19749002EC067 /* AppDelegate.m */; };
-		42B0B2061AA1974A002EC067 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B0B2051AA1974A002EC067 /* art.scnassets */; };
 		42B0B2091AA1974A002EC067 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2081AA1974A002EC067 /* GameViewController.m */; };
 		42B0B20C1AA1974A002EC067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B0B20A1AA1974A002EC067 /* Main.storyboard */; };
 		42B0B20E1AA1974A002EC067 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B0B20D1AA1974A002EC067 /* Images.xcassets */; };
 		42B0B2111AA1974A002EC067 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B0B20F1AA1974A002EC067 /* LaunchScreen.xib */; };
 		42B0B21D1AA1974A002EC067 /* TapYourMsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B21C1AA1974A002EC067 /* TapYourMsTests.m */; };
+		42B0B22F1AA1C903002EC067 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B22E1AA1C903002EC067 /* MainScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,6 @@
 		42B0B2001AA19749002EC067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42B0B2021AA19749002EC067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42B0B2031AA19749002EC067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42B0B2051AA1974A002EC067 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		42B0B2071AA1974A002EC067 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		42B0B2081AA1974A002EC067 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		42B0B20B1AA1974A002EC067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +41,8 @@
 		42B0B2161AA1974A002EC067 /* TapYourMsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapYourMsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B0B21B1AA1974A002EC067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42B0B21C1AA1974A002EC067 /* TapYourMsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapYourMsTests.m; sourceTree = "<group>"; };
+		42B0B22D1AA1C903002EC067 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		42B0B22E1AA1C903002EC067 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +86,10 @@
 			children = (
 				42B0B2021AA19749002EC067 /* AppDelegate.h */,
 				42B0B2031AA19749002EC067 /* AppDelegate.m */,
-				42B0B2051AA1974A002EC067 /* art.scnassets */,
 				42B0B2071AA1974A002EC067 /* GameViewController.h */,
 				42B0B2081AA1974A002EC067 /* GameViewController.m */,
+				42B0B22D1AA1C903002EC067 /* MainScene.h */,
+				42B0B22E1AA1C903002EC067 /* MainScene.m */,
 				42B0B20A1AA1974A002EC067 /* Main.storyboard */,
 				42B0B20D1AA1974A002EC067 /* Images.xcassets */,
 				42B0B20F1AA1974A002EC067 /* LaunchScreen.xib */,
@@ -204,7 +206,6 @@
 			files = (
 				42B0B2111AA1974A002EC067 /* LaunchScreen.xib in Resources */,
 				42B0B20E1AA1974A002EC067 /* Images.xcassets in Resources */,
-				42B0B2061AA1974A002EC067 /* art.scnassets in Resources */,
 				42B0B20C1AA1974A002EC067 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B0B2041AA19749002EC067 /* AppDelegate.m in Sources */,
+				42B0B22F1AA1C903002EC067 /* MainScene.m in Sources */,
 				42B0B2091AA1974A002EC067 /* GameViewController.m in Sources */,
 				42B0B2011AA19749002EC067 /* main.m in Sources */,
 			);
